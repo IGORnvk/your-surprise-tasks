@@ -393,7 +393,7 @@ class ValidationTest extends TestCase
     }
 
     /**
-     * test validation with three invalid values
+     * test validation with four invalid values
      */
     public function test_with_all_invalid_values(): void
     {
