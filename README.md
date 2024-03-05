@@ -1,5 +1,6 @@
 # Tasks done for YourSurprise
 ## Getting started
+This is a Laravel project, so it is assumed that you have composer and XAMPP installed in your system.
 1. Clone the repo and open it
 2. Set up the environment in XAMPP
 3. Run `composer install`
