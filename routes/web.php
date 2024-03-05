@@ -14,10 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-$data =
-
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/task-1', [TaskController::class, 'get_posts']);
+
+Route::get('/task-2', [TaskController::class, 'get_liked_posts']);
+
+Route::post('/task-3', [TaskController::class, 'post_data']);
